@@ -34,13 +34,7 @@
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:range>
     </owl:ObjectProperty>
@@ -50,16 +44,10 @@
     <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Compute_Data_And_Command -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Compute_Data_And_Command">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component"/>
-            </owl:Restriction>
-        </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:range>
     </owl:ObjectProperty>
@@ -72,7 +60,7 @@
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
@@ -148,7 +136,7 @@
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
@@ -167,15 +155,9 @@
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component"/>
-            </owl:Restriction>
-        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -186,13 +168,13 @@
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:range>
     </owl:ObjectProperty>
@@ -205,13 +187,13 @@
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
             </owl:Restriction>
         </rdfs:range>
     </rdf:Description>
@@ -229,25 +211,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Project"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Contry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Contry"/>
-    
-
-
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Project"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Project"/>
-    </owl:Class>
     
 
 
@@ -288,15 +262,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Arduino_IDE_And_Microcontroler -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Arduino_IDE_And_Microcontroler">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Logicial_Component"/>
-        <untitled-ontology-8:Compute_Data_And_Command rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Servomotor"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Burkina_Faso -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Burkina_Faso">
@@ -327,33 +292,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Ensure_Access_To_Affordable_Reliable_Sustainable_And_Modern_Energy_For_All">
         <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#UN_Sustainable_Develpment_Goal"/>
-        <untitled-ontology-8:Goal rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Tracking_System"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#LDRs -->
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Sensor_servo_Structure -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#LDRs">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
-        <untitled-ontology-8:Send_Data rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Arduino_IDE_And_Microcontroler"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Physical_Structure -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Physical_Structure">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
-        <untitled-ontology-8:Maintain_The_System rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Tracking_System"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Servomotor -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Servomotor">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Sensor_servo_Structure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
         <untitled-ontology-8:Tilt_The_Panel rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Panel"/>
     </owl:NamedIndividual>
     
@@ -362,7 +308,7 @@
     <!-- http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Panel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Panel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Material_component"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Component"/>
         <untitled-ontology-8:Deliver rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Current"/>
         <untitled-ontology-8:Deliver rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Voltage"/>
     </owl:NamedIndividual>
@@ -373,10 +319,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Tracking_System">
         <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Project"/>
-        <untitled-ontology-8:Composition rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Arduino_IDE_And_Microcontroler"/>
-        <untitled-ontology-8:Composition rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#LDRs"/>
-        <untitled-ontology-8:Composition rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Physical_Structure"/>
-        <untitled-ontology-8:Composition rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Servomotor"/>
         <untitled-ontology-8:Composition rdf:resource="http://www.semanticweb.org/hp/ontologies/2024/11/untitled-ontology-8#Solar_Panel"/>
     </owl:NamedIndividual>
     
